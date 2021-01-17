@@ -1,0 +1,45 @@
+:root {
+  --white-color: #ffffff;
+  --off-white-color: #f8f8f8;
+  --black-color: #000000;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 65px;
+  background-image: linear-gradient(
+    to right bottom,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  background-repeat: no-repeat;
+}
+header {
+  font-size: 1rem;
+  outline-style: solid;
+}
+.logo {
+  text-decoration: none;
+  font-size: 2.2rem;
+}
+header ul {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+}
+section {
+}
+footer {
+  font-size: 1rem;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+}
